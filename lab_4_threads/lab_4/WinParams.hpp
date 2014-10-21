@@ -10,7 +10,7 @@ using namespace std;
 #define _USE_MATH_DEFINES
 #define WM_INITPARAMS     (WM_USER + 0)
 #define  MAXSH               18
-#define  threadsCounter      5
+#define  threadsCounter      7
 #define  lastShapes          MAXSH % threadsCounter + MAXSH/threadsCounter
 
 struct G_Point 

@@ -28,7 +28,7 @@ DWORD WINAPI drawfunc(void* pParams)
 		SendMessage(params->hWnd,WM_PAINT,0,0);
 		params->onDraw = false;
 		}
-		//Sleep(15);
+		Sleep(15);
 	}
 	DWORD temp = NULL;
 	return temp;
